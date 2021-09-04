@@ -1,0 +1,122 @@
+﻿
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Indie Flower', cursive;
+	/*font-family: 'Open Sans', sans-serif;*/
+
+	}
+
+.header {
+	margin:40px;
+	padding: 25px;
+	background-color:gray;
+	border-radius: 25px;
+	font-size: 30px;
+	box-shadow: 0px 5px 2px 0px;
+}
+
+h1 {
+	text-align: center;
+	text-decoration:none;
+	
+}
+
+div.parent {
+	text-align: center;
+	}
+
+ol {
+
+	list-style-type: none;
+	
+}
+
+li {
+	text-decoration:none;
+		
+	
+}
+
+button {
+  
+	width: 400px;
+	height: 100px;
+	background-color: black; 
+	color: white;
+	border: none;
+}
+
+
+
+button:hover {
+
+
+}
+
+.mage {
+	margin:20px;
+	padding: 15px;
+	border-radius: 25px;
+	font-size: 30px;
+	transition-duration: 0.8s;
+	
+}
+
+.mage:hover {
+	
+	background-color:purple;
+	transition-duration: 0.5s;
+	font-size: 40px;
+	/*transform: scale(1.1, 1.1);
+	box-shadow: 0px 2px 5px 0px black;
+	border: 6px solid black;*/
+}
+
+.orc {
+	margin:20px;
+	padding: 15px;
+	transition-duration: 0.8s;
+	border-radius: 25px;
+	
+	font-size: 30px;
+}
+
+.orc:hover {
+		background-color:lightgreen;
+		transition-duration: 0.5s;
+		font-size: 40px;
+		color:black;
+}
+
+.human {
+	margin:20px;
+	padding: 15px;
+	
+	border-radius: 25px;
+	transition-duration: 0.8s;
+	font-size: 30px;
+}
+
+.human:hover {
+		background-color:lightblue;
+		transition-duration: 0.5s;
+		font-size: 40px;
+		color:black;
+		
+}
+
+.human:active {
+            
+            transform: left;
+	}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	text-align:right;
+	 padding: 2rem;
+	
+}	
+			
